@@ -1,4 +1,4 @@
-import { ItemBase, Player, Shop, Treasury } from '../typechain';
+gimport { ItemBase, Player, Shop, Treasury } from '../typechain';
 import { deployShopContract, getProvider } from './helpers/contract';
 import { deployMockContract, MockContract } from 'ethereum-waffle';
 import ItemArtifact from '../artifacts/contracts/item/ItemBase.sol/ItemBase.json';
